@@ -7,7 +7,7 @@ Vagrant::Config.run do |config|
   config.vm.network :hostonly, "192.168.33.10"
 
   # Forward guest port 80 to host port 3000
-  config.vm.forward_port 3000, 3001
+  config.vm.forward_port 3000, 3000
 
   config.vm.customize do |vm|
     vm.name = "My App"

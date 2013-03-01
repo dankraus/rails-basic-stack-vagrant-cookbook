@@ -74,4 +74,6 @@ $ bundle exec rails s
 You can edit the code and manage your git repo outside of the VM. The project
 directory will automatically sync with the /vagrant directory inside the VM.
 
+To pull up the app in your host machine's browser, go to http://localhost:3000
+
 Visit [http://vagrantup.com/](http://vagrantup.com/) for more instructions on how to use vagrant.
